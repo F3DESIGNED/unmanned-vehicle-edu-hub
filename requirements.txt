@@ -1,0 +1,6 @@
+# MkDocs and Material Theme
+mkdocs>=1.5.3
+mkdocs-material>=9.5.0
+
+# Python Markdown Extensions (included with mkdocs-material but explicit for clarity)
+pymdown-extensions>=10.7.0

@@ -1,0 +1,96 @@
+# MkDocs
+site/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+
+# Media working files
+*.psd
+*.ai
+*.xcf
+
+# Archives (don't commit large binaries)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# CAD temporary files
+*.bak
+*.dwl
+*.dwl2
+*.log
+
+# Arduino/PlatformIO
+.pio/
+.platformio/
+*.elf
+*.hex
+*.bin
+
+# Personal notes and TODO
+NOTES.md
+TODO.md
+.scratch/
+
+# Environment variables
+.env
+.env.local
+
+# Test files
+test/
+tests/
+*.test
