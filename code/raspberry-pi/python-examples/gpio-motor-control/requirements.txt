@@ -1,0 +1,5 @@
+# GPIO Motor Control Dependencies
+
+# RPi.GPIO - Raspberry Pi GPIO control
+# Pre-installed on Raspberry Pi OS, but listed for completeness
+RPi.GPIO>=0.7.1
