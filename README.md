@@ -11,12 +11,24 @@ Empower educators and students with accessible, standards-aligned resources for 
 
 ## 🚁 What's Inside
 
+### Core Content
 - **Complete Build Guides** for UAVs and UGVs at multiple skill levels
 - **Programming Resources** for Arduino, Raspberry Pi, ArduPilot, Betaflight, INAV, and more
-- **Curriculum Integration** with lesson plans aligned to NGSS, Common Core, and CTE standards
+- **Control Systems Documentation** - Manual, FPV, autonomous control, MAVLink, PID tuning
+- **Comprehensive Troubleshooting** - Diagnostic flowcharts, hardware/software/flight issues
 - **Safety & Compliance** guidance for educational settings
-- **Troubleshooting** resources and technical support documentation
-- **Community Contributions** from educators worldwide
+
+### Curriculum Resources
+- **Standards-Aligned Lesson Plans** (NGSS, Common Core Math, ISTE)
+- **Project-Based Units** - Multi-week comprehensive projects
+- **Assessment Tools** - Rubrics, skills checklists, safety certification
+- **Competition Preparation** - AUVSI SUAS, Drones for Good
+
+### Support Resources
+- **Technical References** - Datasheets, protocols, performance databases
+- **Expanded Glossary** - 150+ terms with visual aids
+- **Community Resources** - Forums, organizations, suppliers
+- **Professional Development** - Teacher training materials
 
 ## 🏁 Quick Start
 
