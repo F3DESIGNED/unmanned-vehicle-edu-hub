@@ -1,8 +1,7 @@
 # Unmanned Vehicle Systems Education Hub
 
-[![License: MIT](badge-url)](license-url)
-[![Documentation](badge-url)](docs-url)
-[![Community](badge-url)](discussions-url)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-CODE.md)
 
 > Comprehensive open-source resources for implementing UAV and UGV systems in K-12 STEM and CTE education
 
