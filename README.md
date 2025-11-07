@@ -109,4 +109,4 @@ Showcase recent student/educator implementations...
 
 ---
 
-**Maintained by educators, for educators** | (f3designed.com) | [Documentation](link) | 2025
+**Maintained by educators, for educators** | [Website](f3designed.com) | [Documentation](link) | 2025
