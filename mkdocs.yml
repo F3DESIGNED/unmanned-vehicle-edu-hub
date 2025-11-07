@@ -158,6 +158,30 @@ nav:
   - Setup & Configuration:
     - setup-configuration/index.md
 
+  - Control Systems:
+    - control-systems/index.md
+    - Manual Control: control-systems/manual-control.md
+    - FPV Systems: control-systems/fpv-systems.md
+    - Autonomous Control: control-systems/autonomous-control.md
+    - MAVLink Protocol: control-systems/mavlink-protocol.md
+    - Advanced Control: control-systems/advanced-control.md
+
+  - Troubleshooting:
+    - troubleshooting/index.md
+    - Diagnostic Flowcharts: troubleshooting/diagnostic-flowcharts.md
+    - Hardware Issues: troubleshooting/hardware-issues.md
+    - Software Issues: troubleshooting/software-issues.md
+    - Flight Operation Issues: troubleshooting/flight-operation-issues.md
+    - Log Analysis: troubleshooting/log-analysis.md
+    - Safety Incident Response: troubleshooting/safety-incident-response.md
+    - Preventive Maintenance: troubleshooting/preventive-maintenance.md
+
+  - Curriculum Integration:
+    - curriculum-integration/index.md
+    - Standards Alignment: curriculum-integration/standards-alignment.md
+    - Lesson Plans:
+      - Forces in Flight: curriculum-integration/lesson-plans/forces-in-flight.md
+
   - Reference:
     - Glossary: glossary/index.md
 
