@@ -1,0 +1,145 @@
+site_name: Unmanned Vehicle Systems Education Hub
+site_description: Comprehensive educational resource for learning unmanned vehicle systems including drones, rovers, and boats
+site_author: F3DESIGNED and Contributors
+site_url: https://f3designed.github.io/unmanned-vehicle-edu-hub/
+
+repo_name: F3DESIGNED/unmanned-vehicle-edu-hub
+repo_url: https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub
+edit_uri: edit/main/docs/
+
+copyright: |
+  Copyright &copy; 2025 F3DESIGNED and Contributors<br>
+  Documentation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> |
+  Code: <a href="https://opensource.org/licenses/MIT">MIT License</a>
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/quadcopter
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub
+      name: GitHub Repository
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  version:
+    provider: mike
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+    - getting-started/index.md
+    - Introduction to Unmanned Systems: getting-started/introduction-to-unmanned-systems.md
+    - Prerequisites: getting-started/prerequisites.md
+    - Selecting Your Platform: getting-started/selecting-your-platform.md
+    - First Build Pathways: getting-started/first-build-pathways.md
+
+  - Safety & Compliance:
+    - safety-compliance/index.md
+    - FAA Regulations: safety-compliance/faa-regulations.md
+    - School Policies: safety-compliance/school-policies.md
+    - Safety Procedures: safety-compliance/safety-procedures.md
+    - Battery Safety: safety-compliance/battery-safety.md
+    - Student Safety Training: safety-compliance/student-safety-training.md
+
+  - Reference:
+    - Glossary: glossary/index.md
+
+  # Platform Guides, Code, Hardware, and Curriculum sections will be added in future phases
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js

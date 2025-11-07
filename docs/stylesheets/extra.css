@@ -1,0 +1,50 @@
+/* Custom styles for Unmanned Vehicle Education Hub */
+
+:root {
+  --primary-color: #3f51b5;
+  --accent-color: #2196f3;
+}
+
+/* Card styling for grid layouts */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.grid.cards > * {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.grid.cards > *:hover {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Improve readability for long tables */
+table {
+  font-size: 0.9em;
+}
+
+/* Better spacing for admonitions */
+.admonition {
+  margin: 1.5em 0;
+}
+
+/* Platform icons */
+.platform-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+/* Highlight safety-critical content */
+.admonition.danger {
+  border-left-color: #ff5252;
+}
+
+.admonition.danger > .admonition-title {
+  background-color: rgba(255, 82, 82, 0.1);
+}
