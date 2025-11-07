@@ -133,10 +133,33 @@ nav:
     - Battery Safety: safety-compliance/battery-safety.md
     - Student Safety Training: safety-compliance/student-safety-training.md
 
+  - UAV Systems:
+    - uav-systems/index.md
+    - Frame Designs: uav-systems/frame-designs.md
+    - Propulsion Systems: uav-systems/propulsion-systems.md
+    - Flight Controllers:
+      - ArduPilot: uav-systems/flight-controllers/ardupilot.md
+      - Betaflight: uav-systems/flight-controllers/betaflight.md
+      - INAV: uav-systems/flight-controllers/inav.md
+      - CleanFlight: uav-systems/flight-controllers/cleanflight.md
+    - Payload Systems: uav-systems/payload-systems.md
+    - Build Guides:
+      - Micro Quadcopter: uav-systems/build-guides/micro-quadcopter-build.md
+      - Educational Quadcopter: uav-systems/build-guides/educational-quadcopter-build.md
+      - Fixed-Wing Trainer: uav-systems/build-guides/fixed-wing-trainer-build.md
+
+  - UGV Systems:
+    - ugv-systems/index.md
+    - Chassis Designs: ugv-systems/chassis-designs.md
+
+  - Programming:
+    - programming/index.md
+
+  - Setup & Configuration:
+    - setup-configuration/index.md
+
   - Reference:
     - Glossary: glossary/index.md
-
-  # Platform Guides, Code, Hardware, and Curriculum sections will be added in future phases
 
 extra_css:
   - stylesheets/extra.css

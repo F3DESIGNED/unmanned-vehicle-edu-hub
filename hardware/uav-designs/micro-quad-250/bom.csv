@@ -1,0 +1,13 @@
+Category,Component,Specification,Quantity,Unit Cost (USD),Total Cost (USD),Vendor,Part Number,Notes
+Frame,Micro Quad Frame,"65-100mm, plastic or carbon fiber",1,10.00,10.00,Banggood/Amazon,Various,"Whoop-style frame with prop guards recommended"
+Motors,Brushless Motors,"0802 19000KV or 0702 20000KV",4,6.00,24.00,GetFPV/RaceDayQuads,Happymodel 0802 19000KV,"Micro brushless motors"
+ESC,4-in-1 ESC,"6A per motor, 12A total",1,22.00,22.00,Banggood,Various 12A AIO,"All-in-one easier for micro builds"
+Flight Controller,AIO FC+Receiver,"F4 processor with integrated receiver",1,28.00,28.00,Banggood/GetFPV,JHEMCU GHF411AIO,"Select based on radio protocol (FrSky/Crossfire/ELRS)"
+Propellers,2-blade Props,"40mm or 1.6 inch, clear or colored",2 sets,3.50,7.00,GetFPV,Gemfan 1636,"Have spares, 2-3 sets recommended"
+Battery,1S LiPo,"300-450mAh, 30C+, PH2.0/BT2.0 connector",3,6.00,18.00,RaceDayQuads/GetFPV,Gaoneng 1S 450mAh,"Multiple batteries for extended flying"
+Camera,FPV Camera (optional),"CMOS micro camera, NTSC/PAL",1,15.00,15.00,Banggood/GetFPV,Caddx Ant Lite,"Optional for FPV flight"
+VTX,Video Transmitter (optional),"25mW 5.8GHz, SmartAudio",1,12.00,12.00,GetFPV/Banggood,Eachine TX25,"Optional, only if adding FPV"
+Charger,LiPo Charger,"1S capable, USB or AC",1,15.00,15.00,Amazon/HobbyKing,Various USB 1S charger,"Essential for battery charging"
+Accessories,Spare Parts,"Props, screws, battery straps",1,5.00,5.00,Various,N/A,"Always have spares"
+,,,,**TOTAL (No FPV)**:,**$98.00**,,,
+,,,,**TOTAL (With FPV)**:,**$125.00**,,,
