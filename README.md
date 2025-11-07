@@ -12,7 +12,7 @@ Empower educators and students with accessible, standards-aligned resources for 
 ## 🚁 What's Inside
 
 ### Core Content
-- **Complete Build Guides** for UAVs and UGVs at multiple skill levels
+- **Build Guides** for UAVs and UGVs at multiple skill levels
 - **Programming Resources** for Arduino, Raspberry Pi, ArduPilot, Betaflight, INAV, and more
 - **Control Systems Documentation** - Manual, FPV, autonomous control, MAVLink, PID tuning
 - **Comprehensive Troubleshooting** - Diagnostic flowcharts, hardware/software/flight issues
