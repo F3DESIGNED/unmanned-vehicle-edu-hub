@@ -9,18 +9,21 @@ Ready-to-use assessment instruments for evaluating student learning across knowl
 ## Assessment Types
 
 ### Formative Assessments
+
 - Entry/exit tickets
 - Observation checklists
 - Quick checks for understanding
 - Self-assessment tools
 
 ### Summative Assessments
+
 - Project rubrics
 - Performance assessments
 - Written reflections
 - Presentations
 
 ### Skill-Based Assessments
+
 - Build quality checklists
 - Flight skill evaluations
 - Programming proficiency

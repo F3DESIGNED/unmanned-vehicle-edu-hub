@@ -269,12 +269,14 @@ Want to see your project featured here? Share it in [GitHub Discussions](https:/
 - [ ] Establish community guidelines and moderation
 
 ### Upcoming (Q2 2025)
+
 - [ ] Advanced programming tutorials
 - [ ] Competition preparation guides
 - [ ] Video tutorial library
 - [ ] Interactive troubleshooting tools
 
 ### Future Vision
+
 - [ ] Multilingual support (Spanish, French, Mandarin)
 - [ ] Virtual simulation environments
 - [ ] Certification programs for educators

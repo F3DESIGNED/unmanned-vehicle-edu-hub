@@ -9,16 +9,19 @@ Scaffolded project templates and example projects that students can complete ind
 ## Project Types
 
 ### Beginner Projects
+
 - Pre-planned with detailed instructions
 - Limited customization options
 - 2-4 hours completion time
 
 ### Intermediate Projects
+
 - More design choices
 - Problem-solving required
 - 8-12 hours completion time
 
 ### Advanced Projects
+
 - Open-ended challenges
 - Student-driven design
 - 20+ hours completion time
@@ -26,6 +29,7 @@ Scaffolded project templates and example projects that students can complete ind
 ## What's Included
 
 Each project includes:
+
 - Project brief/challenge
 - Learning objectives
 - Required materials
