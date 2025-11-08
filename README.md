@@ -30,6 +30,19 @@ Empower educators and students with accessible, standards-aligned resources for 
 - **Community Resources** - Forums, organizations, suppliers
 - **Professional Development** - Teacher training materials
 
+### Community & Engagement (NEW Phase 4B!)
+- **[Community Hub](docs/community/)** - Connect, collaborate, and grow
+  - [Mentorship Program](docs/community/mentorship/) - Get paired with experienced educators
+  - [Learning Circles](docs/community/learning-circles/) - Join peer learning groups
+  - [Monthly Challenges](docs/community/events/monthly-challenges/) - Build skills through practice
+  - [Office Hours](docs/community/events/office-hours/) - Weekly drop-in support
+  - [Regional Chapters](docs/community/regional-chapters/) - Local community connections
+- **[Video Library](media/video-content/)** - Tutorials, demos, and how-tos
+- **[Interactive Content](docs/interactive/)** - Simulators, virtual labs, quizzes
+- **[Accessibility](docs/accessibility/)** - Resources for all learners
+- **[Student Community](resources/student-community/)** - For students building and learning
+- **[PLC Resources](resources/plc/)** - Professional learning community
+
 ## 🏁 Quick Start
 
 **New to unmanned systems?** → [Start Here](docs/getting-started/)
@@ -40,7 +53,9 @@ Empower educators and students with accessible, standards-aligned resources for 
 
 **Ready to program?** → [Programming Guides](docs/programming/)
 
-**Need help?** → [Troubleshooting](docs/troubleshooting/)
+**Need help?** → [Troubleshooting](docs/troubleshooting/) or [Office Hours](docs/community/events/office-hours/)
+
+**Want to connect?** → [Community Hub](docs/community/) | [GitHub Discussions](https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub/discussions)
 
 ## 🎓 Educational Levels
 
@@ -69,15 +84,25 @@ Empower educators and students with accessible, standards-aligned resources for 
 docs/
 ├── Getting Started
 ├── UAV Systems
-├── UGV Systems  
+├── UGV Systems
 ├── Programming
 ├── Setup & Configuration
 ├── Control Systems
 ├── Troubleshooting
 ├── Safety & Compliance
 ├── Curriculum Integration
+├── Community (NEW!)              # Phase 4B
+├── Interactive (NEW!)            # Phase 4B
+├── Accessibility (NEW!)          # Phase 4B
 ├── References
 └── Glossary
+
+media/
+└── video-content/ (NEW!)         # Phase 4B
+
+resources/
+├── student-community/ (NEW!)     # Phase 4B
+└── plc/ (NEW!)                   # Phase 4B
 ```
 
 ## 🤝 Contributing
@@ -105,9 +130,20 @@ See [Safety & Compliance Guide](docs/safety-compliance/) for complete informatio
 
 ## 💬 Community
 
-- **Discussions**: [GitHub Discussions](link)
-- **Issues**: [Report bugs or request features](link)
-- **Email**: education@[domain].org
+**Join our vibrant community of educators and students!**
+
+- **[GitHub Discussions](https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub/discussions)** - Q&A, sharing, collaboration
+- **[Community Hub](docs/community/)** - Programs, events, and connections
+- **[Mentorship Program](docs/community/mentorship/mentee-application.md)** - Get matched with an experienced educator
+- **[Office Hours](docs/community/events/office-hours/schedule.md)** - Weekly drop-in support (Wednesdays 7-8 PM ET)
+- **[Monthly Challenges](docs/community/events/monthly-challenges/)** - Hands-on skill building
+- **[Regional Chapters](docs/community/regional-chapters/)** - Connect locally
+- **Issues**: [Report bugs or request features](https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub/issues)
+
+### Recognition & Growth
+- **[Contributor Recognition](docs/community/recognition/)** - Earn badges for your contributions
+- **[Professional Learning Community](resources/plc/)** - Structured PD pathways
+- **[Certification Programs](resources/plc/certification-pathways/)** - Build expertise with micro-credentials
 
 ## 🌟 Featured Projects
 

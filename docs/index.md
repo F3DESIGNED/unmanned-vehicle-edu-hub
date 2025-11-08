@@ -152,26 +152,73 @@ Before starting any build or flight:
     - Complete [Safety Procedures](safety-compliance/safety-procedures.md) training
     - Use appropriate [Personal Protective Equipment](safety-compliance/safety-procedures.md#ppe)
 
-## Community & Support
+## Community & Support (NEW Phase 4B!)
 
+### 🤝 Connect with the Community
+- **[Community Hub](community/)** - Programs, events, and resources
+- **[GitHub Discussions](https://github.com/F3DESIGNED/unmanned-vehicle-edu-hub/discussions)** - Ask questions, share projects
+- **[Office Hours](community/events/office-hours/)** - Weekly drop-in support (Wednesdays 7-8 PM ET)
+- **[Mentorship Program](community/mentorship/)** - Get paired with an experienced educator
+- **[Learning Circles](community/learning-circles/)** - Join peer learning groups
+- **[Monthly Challenges](community/events/monthly-challenges/)** - Build skills through hands-on practice
+- **[Regional Chapters](community/regional-chapters/)** - Connect locally
+
+### 📹 Learning Resources
+- **[Video Library](../media/video-content/)** - Tutorials and demonstrations
+- **[Interactive Content](interactive/)** - Simulators, virtual labs, and quizzes
+- **[Accessibility Resources](accessibility/)** - Support for all learners
+
+### 👩‍🎓 For Students
+- **[Student Community](../resources/student-community/)** - Student-focused resources
+- **[Project Showcase](../resources/student-community/project-showcase/)** - Share your work
+- **[Career Exploration](../resources/student-community/career-exploration/)** - Explore career paths
+
+### 👨‍🏫 For Educators
+- **[Professional Learning Community](../resources/plc/)** - Ongoing PD and growth
+- **[Certification Pathways](../resources/plc/certification-pathways/)** - Build expertise
+- **[Contributor Recognition](community/recognition/)** - Get recognized for contributions
+
+### General Support
 - **Questions?** Check our [Glossary](glossary/index.md) for definitions
 - **Found an issue?** See our [Contributing Guide](../CONTRIBUTING.md)
 - **New to the field?** Start with [Introduction to Unmanned Systems](getting-started/introduction-to-unmanned-systems.md)
 
-## What's Available Now (Phase 1)
+## What's Available Now
 
-✅ Getting Started Documentation
-✅ Safety and Compliance Guides
-✅ Platform Selection Tools
-✅ Comprehensive Glossary
-✅ Community Guidelines
+### ✅ Phase 1: Foundation
+- Getting Started Documentation
+- Safety and Compliance Guides
+- Platform Selection Tools
+- Comprehensive Glossary
+
+### ✅ Phase 2: Technical Content
+- UAV Build Guides
+- UGV Build Guides
+- Programming Resources
+- Control Systems Documentation
+
+### ✅ Phase 3: Support Resources
+- Curriculum Integration
+- Assessment Tools
+- Troubleshooting Guides
+- References and Standards
+
+### ✅ Phase 4A: Validation Infrastructure
+- Pilot Program Framework
+- Assessment and Evaluation Tools
+- Research Opportunities
+
+### ✅ Phase 4B: Community & Multimedia (NEW!)
+- **Community Infrastructure:** Mentorship, learning circles, events, regional chapters
+- **Multimedia Content:** Video library, production guides, tutorials
+- **Interactive Content:** Simulators, virtual labs, self-assessment quizzes
+- **Accessibility:** WCAG compliance, accommodations for diverse learners
+- **Student Community:** Project showcase, peer learning, career exploration
+- **Professional Learning Community:** Certification pathways, ongoing PD
 
 ## Coming Soon
 
-🔜 **Phase 2:** Platform-specific build guides (Aerial, Ground, Marine)
-🔜 **Phase 3:** Curriculum resources and lesson plans
-🔜 **Phase 4:** Code examples and libraries
-🔜 **Phase 5:** Hardware designs and CAD files
+🔜 **Phase 5:** Advanced interactive features, enhanced video content, expanded accessibility resources
 
 ---
 
