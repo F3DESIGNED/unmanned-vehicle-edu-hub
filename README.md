@@ -30,7 +30,7 @@ Empower educators and students with accessible, standards-aligned resources for 
 - **Community Resources** - Forums, organizations, suppliers
 - **Professional Development** - Teacher training materials
 
-### Community & Engagement (NEW Phase 4B!)
+### Community & Engagement (Phase 4B)
 - **[Community Hub](docs/community/)** - Connect, collaborate, and grow
   - [Mentorship Program](docs/community/mentorship/) - Get paired with experienced educators
   - [Learning Circles](docs/community/learning-circles/) - Join peer learning groups
@@ -42,6 +42,15 @@ Empower educators and students with accessible, standards-aligned resources for 
 - **[Accessibility](docs/accessibility/)** - Resources for all learners
 - **[Student Community](resources/student-community/)** - For students building and learning
 - **[PLC Resources](resources/plc/)** - Professional learning community
+
+### Advanced Learning & Sustainability (NEW Phase 4C!)
+- **[Advanced Topics](docs/advanced/)** - Computer vision, AI, swarm robotics, SLAM, specialized applications
+- **[Career Pathways](docs/career-pathways/)** - Industry sectors, certifications, internships, entrepreneurship
+- **[Ethics & Sustainability](docs/ethics-sustainability/)** - Technology ethics, environmental responsibility
+- **[Funding Resources](resources/funding/)** - Grant writing, budgeting, sustainability planning
+- **[Program Implementation](docs/implementation/)** - Admin advocacy, scaling frameworks
+- **[LMS Integration](resources/lms-integration/)** - Canvas, Google Classroom, Schoology, Moodle
+- **[Quality Assurance](docs/quality/)** - Content standards and continuous improvement
 
 ## 🏁 Quick Start
 
@@ -91,18 +100,25 @@ docs/
 ├── Troubleshooting
 ├── Safety & Compliance
 ├── Curriculum Integration
-├── Community (NEW!)              # Phase 4B
-├── Interactive (NEW!)            # Phase 4B
-├── Accessibility (NEW!)          # Phase 4B
+├── Community                     # Phase 4B
+├── Interactive                   # Phase 4B
+├── Accessibility                 # Phase 4B
+├── Advanced (NEW!)               # Phase 4C - Computer vision, AI, swarm, SLAM
+├── Career Pathways (NEW!)        # Phase 4C - Industry sectors, certifications
+├── Ethics & Sustainability (NEW!) # Phase 4C - Tech ethics, environmental impact
+├── Implementation (NEW!)         # Phase 4C - Admin advocacy, scaling
+├── Quality (NEW!)                # Phase 4C - Content standards, QA
 ├── References
 └── Glossary
 
 media/
-└── video-content/ (NEW!)         # Phase 4B
+└── video-content/                # Phase 4B
 
 resources/
-├── student-community/ (NEW!)     # Phase 4B
-└── plc/ (NEW!)                   # Phase 4B
+├── student-community/            # Phase 4B
+├── plc/                          # Phase 4B
+├── funding/ (NEW!)               # Phase 4C - Grants, budgets, sustainability
+└── lms-integration/ (NEW!)       # Phase 4C - Canvas, Google Classroom, etc.
 ```
 
 ## 🤝 Contributing

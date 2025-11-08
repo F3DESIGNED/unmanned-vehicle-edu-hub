@@ -89,6 +89,30 @@ graph TD
 
 ---
 
+### 🚀 Advanced Learners
+**"I've mastered the basics and want to go deeper"**
+
+1. Explore [Advanced Topics](advanced/) - Computer vision, AI, swarm robotics
+2. Choose a specialization in [Specialized Applications](advanced/specialized-applications/)
+3. Consider [Research Projects](advanced/research-projects/) for thesis work
+4. Connect to [Career Pathways](career-pathways/) for your interests
+
+**Recommended Starting Point:** [Advanced Topics Overview](advanced/)
+
+---
+
+### 💼 Career-Focused Students & Job Seekers
+**"I want to turn this into a career"**
+
+1. Explore [Career Pathways](career-pathways/) by industry sector
+2. Review [Certification Requirements](career-pathways/certifications/)
+3. Find [Internship Opportunities](career-pathways/internships/)
+4. Build portfolio with [Advanced Projects](advanced/)
+
+**Recommended Starting Point:** [Career Pathways Overview](career-pathways/)
+
+---
+
 ## Platform Selection Decision Tree
 
 ```mermaid
@@ -208,7 +232,7 @@ Before starting any build or flight:
 - Assessment and Evaluation Tools
 - Research Opportunities
 
-### ✅ Phase 4B: Community & Multimedia (NEW!)
+### ✅ Phase 4B: Community & Multimedia
 - **Community Infrastructure:** Mentorship, learning circles, events, regional chapters
 - **Multimedia Content:** Video library, production guides, tutorials
 - **Interactive Content:** Simulators, virtual labs, self-assessment quizzes
@@ -216,9 +240,19 @@ Before starting any build or flight:
 - **Student Community:** Project showcase, peer learning, career exploration
 - **Professional Learning Community:** Certification pathways, ongoing PD
 
+### ✅ Phase 4C: Advanced Learning & Sustainability (NEW!)
+- **[Advanced Topics](advanced/):** Computer vision, AI, swarm robotics, advanced autonomy, specialized applications
+- **[Career Pathways](career-pathways/):** Industry sectors, career profiles, certifications, internships, entrepreneurship
+- **[Ethics & Sustainability](ethics-sustainability/):** Technology ethics, environmental impact, responsible operation
+- **[Funding Resources](../resources/funding/):** Grant writing toolkit, program budgeting, sustainability planning
+- **[Admin Advocacy](implementation/admin-advocacy/):** Pitch materials, ROI analysis, pilot proposals
+- **[Program Scaling](implementation/scaling/):** Growth pathways from pilot to district-wide
+- **[LMS Integration](../resources/lms-integration/):** Canvas, Google Classroom, Schoology, Moodle packages
+- **[Quality Assurance](quality/):** Content standards, review processes, continuous improvement
+
 ## Coming Soon
 
-🔜 **Phase 5:** Advanced interactive features, enhanced video content, expanded accessibility resources
+🔜 **Phase 5:** Additional advanced content development, enhanced career connections, expanded specialized applications
 
 ---
 
