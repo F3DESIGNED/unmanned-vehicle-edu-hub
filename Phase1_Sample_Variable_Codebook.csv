@@ -1,0 +1,32 @@
+Variable_Name,Data_Type,Valid_Range,Description,Source_Sheet,Formula_Reference
+NCES_ID,Text,7-digit,National Center for Education Statistics ID,Districts_Raw,N/A
+District_Name,Text,-,Official district name,Districts_Raw,N/A
+County,Text,-,Michigan county name,Districts_Raw,N/A
+Locale_Code,Integer,11-43,NCES Urban-Centric Locale Code,Districts_Raw,N/A
+Locale_Category,Text,City/Suburb/Town/Rural,Broad geographic classification,Districts_Clean,IFS(Locale_Code...)
+Locale_Label,Text,12 categories,Detailed locale classification,Districts_Clean,IFS(Locale_Code...)
+Enrollment,Integer,>0,Total district enrollment,Districts_Raw,N/A
+FRL_Count,Integer,>=0,Students eligible for Free/Reduced Lunch,Districts_Raw,N/A
+FRL_Percent,Decimal,0-100,Free/Reduced Lunch percentage,Districts_Raw,Calculated
+Has_CTE,Text,Yes/No,District offers CTE programs,Districts_Clean,COUNTIFS
+CIP_Code,Text,6-digit,Classification of Instructional Programs code,Programs_Raw,N/A
+Building_Code,Text,8-digit,Facility/program location identifier,Programs_Raw,N/A
+Program_Name,Text,-,CTE program title,Programs_Raw,N/A
+Program_Status,Text,Active/Inactive,Current program operational status,Programs_Raw,N/A
+Is_InHouse,Text,Yes/No,Program delivered within district,Programs_Fractional,IF(LEFT...)
+Sharing_Count,Integer,>=1,Number of districts sharing program facility,Programs_Fractional,COUNTIFS
+Fractional_Credit,Decimal,0-1,Program access credit for shared programs,Programs_Fractional,IF(Is_InHouse...)
+SOC_Code,Text,7-digit,Standard Occupational Classification code,Labor_Market,N/A
+Occupation_Title,Text,-,Job title from SOC taxonomy,Labor_Market,N/A
+Median_Wage,Integer,>0,Occupation median annual wage,Labor_Market,N/A
+Regional_Median_Wage,Integer,>0,Overall regional median wage benchmark,Labor_Market,N/A
+Annual_Openings_Current,Integer,>=0,Current year projected job openings,Labor_Market,N/A
+Annual_Openings_10yr,Integer,>=0,10-year projection job openings,Labor_Market,N/A
+CEPD_Region,Text,-,Career Education Planning District,Geographic_Crosswalk,N/A
+Prosperity_Region,Text,-,Michigan Prosperity Region,Geographic_Crosswalk,N/A
+Metropolitan_Region,Text,-,Metropolitan Statistical Area,Geographic_Crosswalk,N/A
+Economic_Region,Text,-,Economic development region,Geographic_Crosswalk,N/A
+Perkins_Funding,Integer,>0,Carl D. Perkins federal funding amount,Control_Variables_Raw,N/A
+Unemployment_Rate,Decimal,0-20,County unemployment rate percentage,Control_Variables_Raw,N/A
+District_Wealth_Index,Decimal,0-3,Relative district wealth indicator,Control_Variables_Raw,N/A
+Urbanicity_Score,Integer,0-100,Composite urban/rural density score,Control_Variables_Raw,N/A
