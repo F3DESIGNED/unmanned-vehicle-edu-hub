@@ -1,0 +1,148 @@
+
+======================================================================
+               PHASE 2 VALIDATION REPORT
+          2025-11-11 14:12:22
+======================================================================
+
+→ Validating workbook: CTE_Research_Master_Phase2_20251111.xlsx
+✓ Workbook loaded successfully
+✓ Total sheets: 23
+
+============================================================
+VALIDATION CHECK 1: NAMED RANGES (PHASE 2)
+============================================================
+
+✓ Expected named ranges: 7
+✓ Found named ranges: 7
+  ✓ StatePathways_Count - FOUND
+  ✓ Active_Toggle_District - FOUND
+  ✓ Active_Toggle_Wage - FOUND
+  ✓ Active_Toggle_OccCount - FOUND
+  ✓ Active_Toggle_TimeRef - FOUND
+  ✓ State_Total_Programs - FOUND
+  ✓ State_Total_Enrollment - FOUND
+
+============================================================
+VALIDATION CHECK 2: OCQ CALCULATIONS
+============================================================
+
+→ Checking OCQ formulas...
+  ✓ Total_Programs: Formula present
+  ✓ StatePathways_Count: Formula present
+  ✓ OCQ: Formula present
+  ✓ OCQ_Category: Formula present
+
+✓ Table tbl_OCQ_Calculated found
+✓ OCQ rows: 13 districts
+
+============================================================
+VALIDATION CHECK 3: PDER CALCULATIONS
+============================================================
+
+→ Checking PDER formulas...
+  ✓ Total_Programs: Formula present
+  ✓ District_Enrollment: Formula present
+  ✓ Program_Share: Formula present
+  ✓ Enrollment_Share: Formula present
+  ✓ PDER: Formula present
+  ✓ PDER_Interpretation: Formula present
+
+✓ Table tbl_PDER_Calculated found
+✓ PDER rows: 13 districts
+
+============================================================
+VALIDATION CHECK 4: HELPER_ALIGNMENT_COUNTY
+============================================================
+
+→ Column check:
+  Expected: 33 columns
+  Found: 33 columns
+  ✓ All columns present
+
+→ Checking helper formulas...
+  ✓ District_Name (B): Formula present
+  ✓ County (C): Formula present
+  ✓ SOC_Code (F): Formula present
+  ✓ Median_Wage (H): Formula present
+  ✓ Wage_Ratio (L): Formula present
+  ✓ Is_High_Wage_110 (M): Formula present
+  ✓ Rank_Current (P): Formula present
+  ✓ Is_Top15_Current (R): Formula present
+  ✓ Aligned_120_Top15_Current (Z): Formula present
+
+✓ Most formulas implemented (9/9)
+
+✓ Helper rows: 31 (district-program combinations)
+✓ Table tbl_Helper_County found
+
+============================================================
+VALIDATION CHECK 5: HELPER TEMPLATES (H2-H5)
+============================================================
+
+→ Checking template sheets...
+  ✓ Helper_Alignment_CEPD: 33 columns
+  ✓ Helper_Alignment_Prosperity: 33 columns
+  ✓ Helper_Alignment_Metropolitan: 33 columns
+  ✓ Helper_Alignment_Economic: 33 columns
+
+============================================================
+VALIDATION CHECK 6: DOCUMENTATION UPDATES
+============================================================
+
+→ Checking Variable_Codebook...
+  ✓ Variable_Codebook entries: 47
+  ✓ Phase 2 variables added
+
+→ Checking Formula_Key...
+  ✓ Formula_Key entries: 20
+  ✓ Phase 2 formulas added
+
+============================================================
+VALIDATION CHECK 7: OVERALL STRUCTURE
+============================================================
+
+→ Sheet inventory:
+  Expected: 23 sheets
+  Found: 23 sheets
+  ✓ Parameters
+  ✓ Districts_Raw
+  ✓ Programs_Raw
+  ✓ Labor_Market_County
+  ✓ Labor_Market_CEPD
+  ✓ Labor_Market_Prosperity
+  ✓ Labor_Market_Metropolitan
+  ✓ Labor_Market_Economic
+  ✓ CIP_SOC_Crosswalk
+  ✓ Geographic_Crosswalk
+  ✓ Control_Variables_Raw
+  ✓ Districts_Clean
+  ✓ Programs_Fractional
+  ✓ Toggle_Settings
+  ✓ OCQ_Calculated
+  ✓ Helper_Alignment_County
+  ✓ Helper_Alignment_CEPD
+  ✓ Helper_Alignment_Prosperity
+  ✓ Helper_Alignment_Metropolitan
+  ✓ Helper_Alignment_Economic
+  ✓ PDER_Calculated
+  ✓ Variable_Codebook
+  ✓ Formula_Key
+
+✓ All expected sheets present
+
+======================================================================
+VALIDATION SUMMARY
+======================================================================
+  ✓ PASS: Named Ranges
+  ✓ PASS: OCQ Calculations
+  ✓ PASS: PDER Calculations
+  ✓ PASS: Helper County (Complete)
+  ✓ PASS: Helper Templates (H2-H5)
+  ✓ PASS: Documentation Updates
+  ✓ PASS: Sheet Structure
+
+======================================================================
+  ✅ ALL VALIDATION CHECKS PASSED
+  Phase 2 is complete and ready for Phase 3
+======================================================================
+
