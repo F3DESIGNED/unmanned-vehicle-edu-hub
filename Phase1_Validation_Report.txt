@@ -1,0 +1,114 @@
+
+======================================================================
+               PHASE 1 VALIDATION REPORT
+          2025-11-10 22:58:15
+======================================================================
+
+→ Validating workbook: CTE_Research_Master_Phase1_20251110.xlsx
+✓ Workbook loaded successfully
+✓ Total sheets: 16
+
+============================================================
+VALIDATION CHECK 1: NAMED RANGES
+============================================================
+
+✓ Expected named ranges: 5
+✓ Found named ranges: 5
+  ✓ StatePathways_Count - FOUND
+  ✓ Active_Toggle_District - FOUND
+  ✓ Active_Toggle_Wage - FOUND
+  ✓ Active_Toggle_OccCount - FOUND
+  ✓ Active_Toggle_TimeRef - FOUND
+
+✓ StatePathways_Count value: 50
+  ✓ Value is correct (50)
+
+============================================================
+VALIDATION CHECK 2: TABLES
+============================================================
+
+✓ Expected tables: 14
+  ✓ Districts_Raw: tbl_Districts_Raw - FOUND
+  ✓ Programs_Raw: tbl_Programs_Raw - FOUND
+  ✓ Labor_Market_County: tbl_Labor_County - FOUND
+  ✓ Labor_Market_CEPD: tbl_Labor_CEPD - FOUND
+  ✓ Labor_Market_Prosperity: tbl_Labor_Prosperity - FOUND
+  ✓ Labor_Market_Metropolitan: tbl_Labor_Metropolitan - FOUND
+  ✓ Labor_Market_Economic: tbl_Labor_Economic - FOUND
+  ✓ CIP_SOC_Crosswalk: tbl_CIP_SOC_Crosswalk - FOUND
+  ✓ Geographic_Crosswalk: tbl_Geographic_Crosswalk - FOUND
+  ✓ Control_Variables_Raw: tbl_Control_Variables - FOUND
+  ✓ Districts_Clean: tbl_Districts_Clean - FOUND
+  ✓ Programs_Fractional: tbl_Programs_Fractional - FOUND
+  ✓ Variable_Codebook: tbl_Variable_Codebook - FOUND
+  ✓ Formula_Key: tbl_Formula_Key - FOUND
+
+✓ Found 14/14 tables
+
+============================================================
+VALIDATION CHECK 3: FORMULAS
+============================================================
+
+→ Checking Districts_Clean formulas...
+  ✗ Found 13 error values in Locale_Label
+  ✓ Has_CTE valid for 0/13 districts
+
+→ Checking Programs_Fractional formulas...
+  ✗ Found 31 invalid credits
+  → Validating shared program credits...
+  ⚠ Found 26 building codes with non-1.0 sums (may be in-house)
+
+============================================================
+VALIDATION CHECK 4: TOGGLE SETTINGS
+============================================================
+
+→ Checking toggle values...
+  ✓ District Inclusion (B2): All Districts
+  ✓ Wage Threshold (B3): 120%
+  ✓ Occupation Count (B4): Top 15
+  ✓ Time Reference (B5): Current
+
+→ Checking data validation...
+  ✓ Found 4 data validations
+
+============================================================
+VALIDATION CHECK 5: DATA QUALITY
+============================================================
+
+→ Checking Districts_Raw for completeness...
+  ✓ NCES_ID: No blank cells
+  ✓ District_Name: No blank cells
+  ✓ County: No blank cells
+  ✓ Locale_Code: No blank cells
+  ✓ Enrollment: No blank cells
+
+→ Checking Districts_Clean geographic assignments...
+  ✓ Geographic assignments complete: 13/13 districts
+
+============================================================
+VALIDATION CHECK 6: DOCUMENTATION
+============================================================
+
+→ Checking Variable_Codebook...
+  ✓ Variable_Codebook entries: 31
+  ✓ Meets minimum requirement (30+ variables)
+
+→ Checking Formula_Key...
+  ✓ Formula_Key entries: 10
+  ✓ Meets minimum requirement (10+ formulas)
+
+======================================================================
+VALIDATION SUMMARY
+======================================================================
+  ✓ PASS: Named Ranges
+  ✓ PASS: Tables
+  ✗ FAIL: Formulas
+  ✓ PASS: Toggle Functionality
+  ✓ PASS: Data Quality
+  ✓ PASS: Documentation
+
+======================================================================
+  ⚠ SOME VALIDATION CHECKS FAILED
+  Review errors above and address issues
+======================================================================
+
